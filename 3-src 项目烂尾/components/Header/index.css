@@ -1,0 +1,22 @@
+
+.input{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+.input input{
+    flex: 1;
+    overflow: hidden;
+    padding-right: 8px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 20px;
+}
