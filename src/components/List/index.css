@@ -1,0 +1,18 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: flex-start;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 10px 100px;
+    border: 1px solid #ddd;
+}
+.catd-text{
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+}
