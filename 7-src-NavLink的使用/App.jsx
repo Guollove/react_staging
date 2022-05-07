@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {NavLink,Route,Switch,Redirect} from 'react-router-dom'
+import {NavLink,Route} from 'react-router-dom'
 import './App.css'
 import About from './pages/About' //About 是路由组件
 import Home from './pages/Home' //Home 是路由组件
@@ -24,11 +24,8 @@ export default class App extends Component {
           <div className='col-md-6'>
             <div className='panel'>
               <div className='panel-body'>
-              <Switch>
-                <Route path='/about' component={About}/>
-                <Route path='/home' component={Home}/>
-                <Redirect to="/about"/>
-              </Switch>
+              <Route path='/about' component={About}/>
+              <Route path='/home' component={Home}/>
               </div>
             </div>
           </div>
